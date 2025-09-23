@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / compiled files
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other temporary files
+*.tmp
