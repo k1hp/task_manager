@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres
+    env_file: .env
+    environment:
+      POSTGRES_DB: ${postgres__database}
+      POSTGRES_USER: ${postgres__user}
+      POSTGRES_PASSWORD: ${postgres__password}
+    ports:
+      - ${postgres__port}:5432
